@@ -67,7 +67,7 @@ class App extends Component {
 	}
 
 	add(ingredient) {
-		this.setState(s => ({ ingredients: s.ingredients.concat(ingredient) }))
+		this.setState(s => ({ ingredients: [ingredient].concat(s.ingredients) }))
 	}
 }
 
