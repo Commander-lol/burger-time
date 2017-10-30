@@ -1,0 +1,45 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+#root {
+	height: 100%;
+}
+
+.interface {
+	display: flex;
+	height: 100%;
+}
+
+.flex-1 { flex: 1 }
+.flex-4 { flex: 4 }
+
+.parts {
+	border-right: 1px solid #DDD;
+	background-color: #EEE;
+}
+
+.builder {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.slice {
+	width: 80%;
+}
+
+.slice rect {
+	box-sizing: border-box;
+	stroke-width: 20;
+	
+}
+
+.ingredients-list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
